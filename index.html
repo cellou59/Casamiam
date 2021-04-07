@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casamiam</title>
+    <!-- Primary Meta Tags -->
+    <title>Mangez mieux, Mangez local</title>
+    <meta name="title" content="Mangez mieux, Mangez local">
+    <meta name="description" content="Casamiam est une solution gratuite pour échanger entre acheteurs et producteur locaux. Casamiam est le droit de choisir des produits de saison, des produits originaux, des produits sains, savoureux, authentiques">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.casamiam.fr">
+    <meta property="og:title" content="Mangez mieux, Mangez local">
+    <meta property="og:description" content="Casamiam est une solution gratuite pour échanger entre acheteurs et producteur locaux. Casamiam est le droit de choisir des produits de saison, des produits originaux, des produits sains, savoureux, authentiques">
+    <meta property="og:image" content=https://i.ibb.co/gzxQTmJ/minuature-casamiam-min.png>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://www.casamiam.fr">
+    <meta property="twitter:title" content="Mangez mieux, Mangez local">
+    <meta property="twitter:description" content="Casamiam est une solution gratuite pour échanger entre acheteurs et producteur locaux. Casamiam est le droit de choisir des produits de saison, des produits originaux, des produits sains, savoureux, authentiques">
+    <meta property="twitter:image" content=https://i.ibb.co/gzxQTmJ/minuature-casamiam-min.png>
+
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +34,7 @@
     <div class="navigation">
         <img src="img/Logo_CM_png_512.png" alt="">
         <div class="menu">
-            <a href="">Téléchargement</a><a href="">Producteur</a><a href="">Contact</a>
+            <a href="#downloads">Téléchargement</a><a href="#producers">Producteur</a><a href="#info-contact">Contact</a>
         </div>
     </div>
 </nav>
@@ -61,7 +81,7 @@
                     <a href="https://play.google.com/store/apps/details?id=com.casamiam.app"><img src="img/bouton-google.png" alt="Logo Google play store">
                     </a>
                 </div>
-                <div class="simplicity-producers-text">
+                <div id="producers" class="simplicity-producers-text">
                     <h2 class="simplicity-title">Pour les producteurs indépendants à côté de chez vous</h2>  
                     <div class="simplicity-text">
                         <p>AVEC CASAMIAM, LA PROXIMITE EST SOURCE DE SIMPLICITE</p>
@@ -203,18 +223,16 @@
                         <p>Nous voulons que la <strong> redistribution de la valeur retourne à l’avantage de ceux qui font de leurs mains</strong> .</p>
                 </div>
                 <div class="how-it-work-text">
-                    <p>ET QUE DOIT FAIRE LE PRODUCTEUR ?</p>
-                    <ul>
-                        <li> <strong> En parler</strong>  à ses clients :) Rien de plus simple. Leur montrer l'application, en parler à la ferme, dans sa boutique, sur les marchés. Avoir une petite affiche, publier “je suis sur casamiam” sur votre page Facebook ou votre newsletter si vous en avez une.</li>
-                        <li> Etre respectueux de ses <strong> clients</strong> . Par la qualité des produits et le service. Simplement répondre aux mails, préparer les commandes, mettre à jour sa boutique ( horaires, produits..) </li>
-                        <li> En parler à vos<strong> collègues producteurs</strong>  : la condition de réussite de Casamiam, c’est s’il y a beaucoup de monde. Nous comptons sur vous.</li>
-                        <li> Respecter la <strong> législation</strong> , les normes et les règles. Le producteur est seul responsable de la qualité des produits vendus et du contenu des informations publiées sur Casamiam.</li>
-                    </ul>
+                    <p>ET QUE DOIT FAIRE LE PRODUCTEUR ?</p>           
+                    <p> <strong> En parler</strong>  à ses clients :) Rien de plus simple. Leur montrer l'application, en parler à la ferme, dans sa boutique, sur les marchés. Avoir une petite affiche, publier “je suis sur casamiam” sur votre page Facebook ou votre newsletter si vous en avez une.</p>
+                    <p> Etre respectueux de ses <strong> clients</strong> . Par la qualité des produits et le service. Simplement répondre aux mails, préparer les commandes, mettre à jour sa boutique ( horaires, produits..) </p>
+                    <p> En parler à vos<strong> collègues producteurs</strong>  : la condition de réussite de Casamiam, c’est s’il y a beaucoup de monde. Nous comptons sur vous.</p>
+                    <p> Respecter la <strong> législation</strong> , les normes et les règles. Le producteur est seul responsable de la qualité des produits vendus et du contenu des informations publiées sur Casamiam.</p>
                     <p>Vous trouverez plus d'informations dans les conditions générales sur le site.
                         En attendant , la première étape est de télécharger Casamiam sur votre téléphone.
                     </p>
                 </div>
-                <div class="how-it-work-downloads">   
+                <div class="how-it-work-downloads" id="downloads">   
                     <div class="how-it-work-download">
                         <div class="how-it-work-download-grid">
                             <a href="https://play.google.com/store/apps/details?id=com.casamiam.app"><img src="img/bouton-google.png" alt="Logo Google play store">
@@ -236,6 +254,26 @@
             </div>
         </div>
     </section>
+    <section class="section-contact" id="contact">
+        <h2><strong>Restons</strong> en Contact</h2>
+        <div class="container-form">
+            <form action="mailto:info@casamiam.fr" method="POST" class="form-bloc">
+                <div class="form-groupe">
+                    <label for="message"></label>
+                    <textarea name="message" id="txt" placeholder="Votre message" required></textarea>
+                </div>
+                <div class="form-groupe">
+                    <input type="submit" value="ENVOYER" class="button-sub">
+                </div>
+            </form>
+            <div id="info-contact" class="section-contact-info">
+                <h3>Casamiam</h3>
+                <p>54 rue Pasteur</p>
+                <p>59650 Villeneuve d’Ascq</p>
+                <p>Envoyez-nous un petit message, ça nous fera plaisir :)</p>
+            </div>
+        </div>
+    </section>
 </main>
 <!----------------------- Footer --------------------->
 <footer>
@@ -245,8 +283,8 @@
                 <div class="footer-link">
                     <h2>Téléchargement</h2>
                     <ul>
-                        <li><a href="">App Store</a></li>
-                        <li><a href="">Google</a></li>
+                        <li><a href="https://apps.apple.com/fr/app/casamiam/id1544082592?ign-itsct=apps_box&ign-itscg=30200">App Store</a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.casamiam.app">Google</a></li>
                     </ul>
                     <h2>Et aussi</h2>
                     <ul>
@@ -258,8 +296,8 @@
                     <h2>Qui sommes nous
                     </h2>
                     <ul>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Vous êtes producteurs</a></li>
+                        <li><a href="#info-contact">Contact</a></li>
+                        <li><a href="#producers">Vous êtes producteurs</a></li>
                         <li><a href="">Développement économique local</a></li>
                     </ul>
                 </div>
