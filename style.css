@@ -233,6 +233,9 @@ h1 {
         width: 200px;
         margin: 0px ;
     }
+    .presentation-downland img:last-child {
+        margin-left: 10px;
+    }
 
     .presentation-img{
         min-width: 100%;
