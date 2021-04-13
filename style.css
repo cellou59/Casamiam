@@ -311,7 +311,7 @@ h1 {
 .simplicity {
     background: var(--primary-color);
     color: #fff;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }    
 
 .simplicity .container{
