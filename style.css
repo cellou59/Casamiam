@@ -291,7 +291,7 @@ h1 {
         margin: 0 150px
     }
     h1 {
-        font-size: 10.3rem;
+        font-size: 9.5rem;
         line-height: 1;
     }
     .presentation-grid{
@@ -500,6 +500,7 @@ h1 {
     }
     .simplicity-text p:first-child {
         margin-top: 0;
+        margin-bottom: 1rem;
     }
     .simplicity-btn{
         display: block;
@@ -820,6 +821,7 @@ h1 {
     } 
     .same-app-text p {
     font-size: 1.2rem;
+    margin-top: 0;
     }
     .same-app-text p:first-child {
     font-size: 1.7rem;
@@ -862,6 +864,7 @@ h1 {
     }
     .same-app-text p:first-child {
         margin-top: 0;
+        margin-bottom: 1rem;
     }
     .same-app-btn{
         width: 25%;
@@ -1276,10 +1279,15 @@ h1 {
         grid-row: 7/8;      
     }
     .how-it-work-support-imgs{
-        justify-content: flex-start;
+        justify-content: center;
     }
     .how-it-work-support img {
         width: 150px;
+        height: auto;
+        /* border: solid blue 1px; */
+    }
+    .how-it-work-support img:last-child {
+        width: 80px;
         height: auto;
     }
     .how-it-work-downloads{
@@ -1373,6 +1381,14 @@ h1 {
 }
 .section-contact-info{
     text-align: center;
+    margin-bottom: 1rem;
+}
+.section-contact p:last-child{
+    display: inline;
+    color: var(--primary-color);
+}
+.section-contact a {
+    text-decoration: none;
 }
 
 .section-contact-info h3{
@@ -1392,7 +1408,7 @@ h1 {
         padding: 0;
     }
     .section-contact-info{
-        margin: 0;
+        
         padding: 0 25px;
     }
     .section-contact-info h3{
@@ -1592,9 +1608,7 @@ footer{
     .footer-link a {
         font-size: 1.2rem;
     }
-    .footer-copyright-and-medias-grid div:first-child {
-        justify-content: center;
-    }
+    
     .footer-copyright-and-medias-grid div:last-of-type a {
         width: 175px;
     }
@@ -1619,31 +1633,3 @@ footer{
         width: 200px;
     }
 }
-
-
-
-
-
-
-
-/* ------------------------be-usefull ---------------------- */
-
-
-/* Media queries  */
-
-@media screen and (min-width: 576px){
-    
-}
-@media screen and (min-width: 768px){
-
-}
-@media screen and (min-width: 992px){
-    
-}
-@media screen and (min-width: 1200px){
-    
-}
-@media screen and (min-width: 1600px){
-    
-}
-
